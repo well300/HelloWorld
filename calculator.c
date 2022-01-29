@@ -3,7 +3,7 @@
 #include <stdio.h>
  
 int main(){
-           char operator;
+         char operator;
          double num1;
          double num2;
          double result;
@@ -36,5 +36,6 @@ int main(){
                break;                                
             default:
                  printf("%c is not valid", operator);
-         }      
+         }   
+ return 0;
 }
